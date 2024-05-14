@@ -1,0 +1,36 @@
+$inter: "Inter", sans-serif;
+$lalazer: "Lalezar", system-ui;
+
+footer {
+  background-color: #edf2f4;
+  padding-top: 74px;
+  padding-bottom: 85px;
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .footer1 {
+      max-width: 200px;
+      h3 {
+        font-family: $inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19.36px;
+        margin-bottom: 30px;
+      }
+      p {
+        font-family: $inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+        margin-bottom: 8px;
+      }
+      .footer-network {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}

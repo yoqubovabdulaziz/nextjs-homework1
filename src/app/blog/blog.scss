@@ -1,0 +1,63 @@
+$inter: "Inter", sans-serif;
+$lalazer: "Lalezar", system-ui;
+
+#blog {
+  background-color: #fff;
+  padding-top: 67px;
+  padding-bottom: 63px;
+  .blog {
+    &__title {
+      font-family: $inter;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 38.73px;
+      letter-spacing: 0.05em;
+      margin-bottom: 46px;
+    }
+    &__box {
+      background-color: #edf2f4;
+      border-radius: 20px;
+      padding: 32px;
+      display: flex;
+      align-items: center;
+      gap: 26px;
+      margin-bottom: 33px;
+      h3 {
+        font-family: $inter;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 29.05px;
+        letter-spacing: 0.05em;
+        margin-bottom: 44px;
+      }
+      p {
+        font-family: $inter;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 19.36px;
+      }
+    }
+    &__box:nth-child(2) {
+      flex-direction: row-reverse;
+    }
+    &__last__box {
+      background-color: #edf2f4;
+      padding: 50px;
+      border-radius: 20px;
+      h3 {
+        font-family: $inter;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 29.05px;
+        letter-spacing: 0.05em;
+        margin-bottom: 30px;
+      }
+      p {
+        font-family: $inter;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 19.36px;
+      }
+    }
+  }
+}

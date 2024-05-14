@@ -1,0 +1,27 @@
+$inter: "Inter", sans-serif;
+$lalazer: "Lalezar", system-ui;
+
+#about-page {
+  background-color: #fff;
+  padding-top: 68px;
+  .about {
+    &__top {
+      padding-bottom: 69px;
+    }
+    p {
+      font-family: $inter;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 19.36px;
+      margin-bottom: 51px;
+    }
+    h3 {
+      font-family: $inter;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 38.73px;
+      letter-spacing: 0.1em;
+      margin-bottom: 20px;
+    }
+  }
+}
